@@ -25,15 +25,16 @@
     </div>
 	<script>
     var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/vkv1.loader.js";
+      var loaderUrl = buildUrl + "/HTML5Build.loader.js";
       var config = {
-        dataUrl: buildUrl + "/vkv1.data.unityweb",
-        frameworkUrl: buildUrl + "/vkv1.framework.js.unityweb",
-        codeUrl: buildUrl + "/vkv1.wasm.unityweb",
+        dataUrl: buildUrl + "/HTML5Build.data",
+        frameworkUrl: buildUrl + "/HTML5Build.framework.js",
+        codeUrl: buildUrl + "/HTML5Build.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "pinhascorp",
         productName: "ForTanya",
-        productVersion: "1.0",
+        productVersion: "0.1",
+        showBanner: unityShowBanner,
       };
 
       var container = document.querySelector("#unity-container");
