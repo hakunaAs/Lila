@@ -1,9 +1,3 @@
-# Responsive Unity Template
+Психологическая игра Лила. 
 
-`Source: https://github.com/JohannesDeml/UnityWebGL-LoadingTest`
-
-Responsive template for Unity 2020+. Ready for publishing, with nice loading screen and responsive layout.
-
-
-
-Copyright Johannes Deml 2021
+Репозиторий для публикации игры в VK Games.
