@@ -59,7 +59,7 @@
     <div id="unity-progress-bar">
     </div>
   </div>
-  <script src="Build/Lila V1.0.0.loader.js"></script>
+  <script src="Build/html.loader.js"></script>
   <script>
     const maxPixelRatioMobile = 2.0;
     const maxPixelRatioDesktop = 1.5;
@@ -69,11 +69,11 @@
     var pixelRatio = Math.min(window.devicePixelRatio, maxDevicePixelRatio);
 
     var buildUrl = "Build";
-    var loaderUrl = buildUrl + "/Lila V1.0.0.loader.js";
+    var loaderUrl = buildUrl + "/html.loader.js";
     var config = {
-      dataUrl: buildUrl + "/Lila V1.0.0.data",
-      frameworkUrl: buildUrl + "/Lila V1.0.0.framework.js",
-      codeUrl: buildUrl + "/Lila V1.0.0.wasm",
+      dataUrl: buildUrl + "/html.data",
+      frameworkUrl: buildUrl + "/html.framework.js",
+      codeUrl: buildUrl + "/html.wasm",
       streamingAssetsUrl: "StreamingAssets",
       companyName: "DefaultCompany",
       productName: "My project (1)",
